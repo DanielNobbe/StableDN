@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "==1.13.1"
+torchvision = "==0.14.1"
+albumentations = "==1.3.0"
+opencv-python = "==4.6.0.66"
+imageio = "==2.9.0"
+numpy = "==1.23.1"
+imageio-ffmpeg = "==0.4.2"
+pytorch-lightning = "==1.4.2"
+omegaconf = "==2.1.1"
+test-tube = ">=0.7.5"
+streamlit = "==1.12.1"
+einops = "==0.3.0"
+transformers = "==4.19.2"
+webdataset = "==0.2.5"
+kornia = "==0.6"
+open-clip-torch = "==2.0.2"
+invisible-watermark = ">=0.1.5"
+streamlit-drawable-canvas = "==0.8.0"
+torchmetrics = "==0.6.0"
+xformers = "*"
+triton = "*"
+matplotlib = "*"
+wandb = "*"
+pillow = "*"
+taming-transformers = {editable = true, ref = "master", git = "git+https://github.com/CompVis/taming-transformers.git"}
+clip = {editable = true, ref = "main", git = "git+https://github.com/openai/CLIP.git"}
+stablesr = {file = ".", editable = true}
+cuda-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
